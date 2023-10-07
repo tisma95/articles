@@ -30,23 +30,23 @@ L'application qui sera créée pour la démonstration est une application simple
 
 La langue par défaut est l'anglais lorsque l'application est ouverte :
 
-![Image description](./img/english_result.png)
+![Ecran traduit en Anglais](./img/english_result.png)
 
 Lorsque nous cliquons sur le bouton pour changer de langue, la langue est mise à jour en langue française comme suit :
 
-![Image description](./img/french_result.png)
+![Ecran traduit en Français](./img/french_result.png)
 
 ## Mise en œuvre
 
 - Créer une nouvelle application **Flutter** dans mon cas j'ai créé l'application **flutter_translation_app** la structure de mon projet est :
 
-![Image description](./img/project_structure.png)
+![Structure du projet Flutter](./img/project_structure.png)
 
 - Dans le dossier **lib**, créez un nouveau dossier **locales** qui contiendra les chaînes de traduction pour chaque langue.
 
 - Dans le dossier **locales**, ajoutez les nouveaux fichiers **en.dart** et **fr.dart** pour les chaînes de traduction de chaque langue comme suit :
 
-![Image description](./img/local_folder_contain.png)
+![Structure du dossier locale](./img/local_folder_contain.png)
 
 `
 Pour une nouvelle langue, nous devons ajouter une nouvelle classe dans le dossier **lib/locales**.
