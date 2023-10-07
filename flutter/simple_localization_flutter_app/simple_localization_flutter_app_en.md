@@ -109,7 +109,7 @@ The code above imports the language classes from the local folder and then loads
 The method **translation(key)** inside class **AppLocalization** will return the translation string according to **key** and **lang**.
 
 To translate a string in an application screen, this format must be used:
-For example, in the application, if we use :
+For example, in the application, if we use:
 
 - **AppLocalization(lang: "en").translate('message')** will return "Hello World !"
 - **AppLocalization(lang: "fr").translate('message')** will return "Bonjour tout le monde !"
