@@ -101,7 +101,7 @@ Vous devez mettre les valeurs spécifiques comme l'exemple ci-dessous :
 2. Lancez la commande suivante pour activer l'environnement :
 
     ```cmd
-    source env/bin/activate
+        source env/bin/activate
     ```
     ou sur windows
     ```cmd
@@ -114,7 +114,7 @@ Vous devez mettre les valeurs spécifiques comme l'exemple ci-dessous :
         pip install -r requirements.txt
     ```
 
-4. Lancez le script de sauvegarde avec la commande : `python main.py` or `python3 main.py`
+4. Lancez le script de sauvegarde avec la commande : `python main.py` ou `python3 main.py`
 
 Et voilà à la fin vous aurez tous les dépôts dans le dossier de destination.
 
