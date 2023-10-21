@@ -43,7 +43,6 @@ Go to your **Gitlab** account to generate a token with read-only authorization a
 
 <img src="./img/token.png" alt="" width="50%"/>
 
-
 > **Important:**
 > If you want to update fork repositories, you need to give workflow authorization to allow repositories to be updated. Activate the option as shown below:
 
@@ -61,7 +60,7 @@ DOMAIN = gitlab.com
 PROTOCOL = https
 # Access Token To Domain
 TOKEN = your_generate_token_here
-# Nom d'utiliateur gitlab
+# Username gitlab
 USERNAME = your_gitlab_username
 # Storage Folder => Folder where the repositories will be save => example /home/toto or C:\users\toto for windows
 FOLDER = folder_path_here
