@@ -39,7 +39,7 @@ After installation, you can clone the utility script at the following address: [
 
 ### Token creation
 
-Go to your **Gitlab** account to generate a token with read-only authorization as below::
+Go to your **Gitlab** account to generate a token with read-only authorization as below:
 
 <img src="./img/token.png" alt="" width="50%"/>
 
@@ -96,7 +96,7 @@ You must enter specific values as shown in the example below:
 2. Run the following command to activate the environment:Lancez la commande suivante pour activer l'environnement:
 
     ```cmd
-    source env/bin/activate
+        source env/bin/activate
     ```
     or on windows
     ```cmd

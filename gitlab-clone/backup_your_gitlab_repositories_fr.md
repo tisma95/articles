@@ -96,7 +96,7 @@ Vous devez mettre les valeurs spécifiques comme l'exemple ci-dessous :
 2. Lancez la commande suivante pour activer l'environnement :
 
     ```cmd
-    source env/bin/activate
+        source env/bin/activate
     ```
     ou sur windows
     ```cmd
