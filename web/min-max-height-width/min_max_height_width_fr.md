@@ -6,15 +6,15 @@ date: 11/02/2024
 
 <img src="./img/header.png" alt="" width="100%" height="500px" />
 
-# Quel est la différence entre width/height, min-width/min-height et max-width/max-height avec valeur en pixel en CSS ?
+# Quelle est la différence entre width/height, min-width/min-height et max-width/max-height avec une valeur en pixel en CSS ?
 
 ## Définition de width et height
 
-Les propriété **CSS** **width** et **height** permettent respectivement de spécifier la largeur et la hauteur d'un élément.
+Les propriétés **CSS** **width** et **height** permettent respectivement de spécifier la largeur et la hauteur d'un élément.
 
-Pour voir la différence entre chacun des élement nous allons utiliser le code de base suivant:
+Pour voir la différence entre chacun des élements nous allons utiliser le code de base suivant:
 
-```html attr.source='.numberLines'
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,7 +50,7 @@ Pour voir la différence entre chacun des élement nous allons utiliser le code 
 
 La propriété **height** permet d'appliquer une hauteur à un élément *html*. La valeur peut être absolue en pixel ou relative en pourcentage.
 
-Si on appliique une valeur absolue de 20 pixels à notre *div* précédente en remplaçant le *style* par:
+Si on applique une valeur absolue de 20 pixels à notre *div* précédente en remplaçant le *style* par:
 
 ```css
 <style>
@@ -66,7 +66,7 @@ On obtient le résultat suivant:
 
 <img src="./img/height_without_overflow.png" alt="" width="50%"/>
 
-Le texte à l'intérieur de la *div* déborde du contenant car le texte est plus grand que 20 pixels.
+Le texte à l'intérieur de la *div* déborde car le texte est plus grand que 20 pixels.
 
 Si on veut faire contenir le contenu (le texte) dans le conteneur (la div) on peut utiliser la propriété css *overflow: auto*. Ce qui donne comme style:
 
@@ -80,15 +80,15 @@ Si on veut faire contenir le contenu (le texte) dans le conteneur (la div) on pe
     }
 </style>
 ```
-Avec la propriété *overflow: auto;* le contenant restera à l'intérieur du conteneur avec une barre de défilement.
+Avec la propriété *overflow: auto;* le contenant restera à l'intérieur du conteneur avec une barre de défilement verticale.
 
 <img src="./img/height_with_overflow.png" alt="" width="50%"/>
 
 ### height avec min
 
-On peut précéder la propriété **height** de **min** ou **max**. Dans ce cas le mode de fonctionnement change:
+On peut précéder la propriété **height** de **min**. Dans ce cas le mode de fonctionnement change:
 
-Si on ajoute utilise **min-height** celà signifie que l'élément ne peut avoir une taille plus pétite que celle spécifiée même si la taille de l'écran est plus pétite que la taille spécifiée.
+Si on utilise **min-height** celà signifie que l'élément ne peut avoir une hauteur plus pétite que celle spécifiée même si la hauteur de l'écran est plus pétite que la hauteur spécifiée.
 
 Si on change le style par:
 
@@ -103,11 +103,11 @@ Si on change le style par:
 </style>
 ```
 
-La taille de la page web sera au minimum égale à la taille spécifiée même si le contenu de la *div* ne dépasse pas la valeur spécifiée. Par exemple sur un écran de 648 x 530 (largeur x hauteur) aura comme résultat.
+La hauteur de la page web sera au minimum égale à la hauteur spécifiée même si le contenu de la *div* ne dépasse pas la valeur spécifiée. Par exemple sur un écran de 648 x 530 (largeur x hauteur) aura comme résultat.
 
 <img src="./img/height_min.png" alt="" width="50%"/>
 
-Dans l'exemple précédent on voit que la *div* a gardé sa taille minimun de 510 pixels même si le texte à l'intérieur ne dépasse pas les 510 pixels.
+Dans l'exemple précédent on voit que la *div* a gardé sa hauteur minimun de 510 pixels même si le texte à l'intérieur ne dépasse pas les 510 pixels.
 
 **Si jamais on applique une valeur min-height à la *div* et que le contenu de la *div* a une hauteur plus grande que la valeur spécifiée, la *div* aura comme hauteur celle de son contenu.**
 
@@ -157,7 +157,7 @@ Le fonctionnement ici est un peu différent:
 
     <img src="./img/max_height_without_overflow.png" alt="" width="50%"/>
 
-    **Pour éviter le débordement on peut appliquer la proprité **overflow: auto;** pour avoir le résultat:**
+    **Pour éviter le débordement on peut appliquer la proprité *overflow: auto;* pour avoir le résultat:**
 
     <img src="./img/max_height_with_overflow.png" alt="" width="50%"/>
 
@@ -196,7 +196,7 @@ Le fonctionnement ici est un peu différent:
         }
     </style>
     ```
-    Donnera le même résultat que plus haut:
+    Donnera le même résultat identique à celui affiché plus haut:
 
     <img src="./img/max_height_without_overflow_2.png" alt="" width="50%"/>
 
@@ -220,7 +220,7 @@ La propriété **width** est identique à la propriété **height** sauf que la 
 | max-width: 20px;  |  Si le contenu de la *div* peut être affiché sur une largeur de 50 pixels alors | la largeur de la *div* sera de 20 pixels avec débordement du contenu sur 30 pixels sur la largeur |
 | min-width: 20px; |  Si le contenu de la *div* peut être affiché sur une largeur de 10 pixels alors | la largeur de la *div* sera de 10 pixels identique à celle de son contenu|
 
-**Comme pour la propriété **height** on peut appliquer la propriété **overflow: auto;** dans le cas du **width** le contenu restera à l'intérieur du conteneur avec une barre de défilement verticale.**
+**Comme pour la propriété **height** on peut appliquer la propriété *overflow: auto;* dans le cas du *width* le contenu restera à l'intérieur du conteneur avec une barre de défilement verticale.**
 
 **On peut aussi utiliser les deux propriétés sur un même élément.**
 

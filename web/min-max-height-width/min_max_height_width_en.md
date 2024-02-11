@@ -14,7 +14,7 @@ The **CSS** properties **width** and **height** are used to specify the width an
 
 To see the difference between each element, we'll use the following basic code:
 
-```html attr.source='.numberLines'
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -80,15 +80,15 @@ If you want the content (the text) to be contained within the container (the div
     }
 </style>
 ```
-With the property *overflow: auto;* the container will remain inside the container with a scroll bar.
+With the property *overflow: auto;* the container will remain inside the container with a vertical scroll bar.
 
 <img src="./img/height_with_overflow.png" alt="" width="50%"/>
 
 ### height with min
 
-The **height** property can be preceded by **min** or **max**. In this case, the operating mode changes:
+The **height** property can be preceded by **min**. In this case, the operating mode changes:
 
-If **min-height** is used, this means that the element cannot be smaller than the specified size, even if the screen size is smaller than the specified size.
+If **min-height** is used, this means that the element height cannot be smaller than the specified height, even if the screen height is smaller than the specified height.
 
 If we change the style to:
 
@@ -103,7 +103,7 @@ If we change the style to:
 </style>
 ```
 
-The size of the web page will be at least equal to the specified size, even if the content of the *div* does not exceed the specified value. For example, on a 648 x 530 (width x height) screen, the result would be.
+The height of the web page will be at least equal to the specified height, even if the content of the *div* does not exceed the specified value. For example, on a 648 x 530 (width x height) screen, the result would be.
 
 <img src="./img/height_min.png" alt="" width="50%"/>
 
@@ -123,7 +123,7 @@ For example, if we apply the following style:
 </style>
 ```
 
-The result is
+The result is:
 
 <img src="./img/height_min_2.png" alt="" width="50%"/>
 
@@ -157,7 +157,7 @@ It works a little differently here:
 
     <img src="./img/max_height_without_overflow.png" alt="" width="50%"/>
 
-    **To avoid overflow, you can apply the **overflow: auto;** property to get the result:**
+    **To avoid overflow, you can apply the *overflow: auto;* property to get the result:**
 
     <img src="./img/max_height_with_overflow.png" alt="" width="50%"/>
 
@@ -176,6 +176,7 @@ It works a little differently here:
     <img src="./img/max_height_without_overflow_2.png" alt="" width="50%"/>
 
     It doesn't matter what the **max-height** value is, as long as it's greater than the content size, you get the same result.
+
     ```css
     <style>
         .app {
@@ -220,7 +221,7 @@ The **width** property is identical to the **height** property, except that the 
 | max-width: 20px;  |  If the content of the *div* can be displayed at a width of 50 pixels, then | the width of the *div* will be 20 pixels, with the content extending 30 pixels over the width |
 | min-width: 20px; |  If the *div* content can be displayed at a width of 10 pixels, then | the width of the *div* will be 10 pixels identical to that of its content|
 
-**As with the **height** property, you can apply the **overflow: auto;** in the case of **width** the content will remain inside the container with a vertical scroll bar.**
+**As with the **height** property, you can apply the *overflow: auto;* in the case of *width* the content will remain inside the container with a vertical scroll bar.**
 
 **You can also use both properties on the same element.**
 
