@@ -30,7 +30,7 @@ Dans l'exemple précédent on voit que les variable *a* et *b* ont un numéro de
 
 **La fonction id ne renvoie pas tout le temps le même numéro de case mémoire. La valeur obtenue varie d'un ordinateur à l'autre.**
 
-Quand on ecrit un programme en pour les type primitifs comme **int**(entier), **float**(nombre à virgule), **bool**(booléen) et les types **str**(chaine) lorsque deux variables ont la même valeur, les deux variables partage la même case mêmoire tant que la valeur est identique. Comme dans les exemples ci dessous:
+Quand on ecrit un programme en Python pour les type primitifs comme **int**(entier), **float**(nombre à virgule), **bool**(booléen) et les types **str**(chaine) lorsque deux variables ont la même valeur, les deux variables partage la même case mêmoire tant que la valeur est identique. Comme dans les exemples ci dessous:
 
 <img src="./img/example_int_fr.png" alt="" width="100%" />
 
@@ -64,13 +64,13 @@ Après saisie de l'utilisateur si on convertit et qu'on a la même valeur qu'une
 
 **Ce mécanisme de mutation ne fonctionne pas avec les chaines de caractères ni avec les types objets.**
 
-Quand il s'agit du type **str** la case mémoire où la valeur de l'utiliseur est stockée ne changera pas même si la même valeur existe déjà c'est pourquoi on dit que les chaine de caractères **str** sont **immuables** car leur **id** ne change plus quand déjà alloué.
+Quand il s'agit du type **str** la case mémoire où la valeur de l'utilisateur est stockée ne changera pas même si la même valeur existe déjà c'est pourquoi on dit que les chaine de caractères **str** sont **immuables** car leur **id** ne change plus quand déjà alloué.
 
 <img src="./img/example_nomutable_fr.png" alt="" width="100%" />
 
 ## Subtilité des comparaisons avec *is* et *is not*
 
-Dans les versions récentes de Python (par exemple dans la 3.10) on a les mots clés **is not** et **is** qui sont utilisés par fois à tort pour vérifier si une deux variables ont la même valeur.
+Dans les versions récentes de Python (par exemple dans la 3.10) on a eu l'introduction des mots clés **is not** et **is** qui sont utilisés par certains programmeurs (moi y compris je suis tombé dans le piège d'où l'objet de l'article) parfois à tort pour vérifier si une deux variables ont la même valeur.
 
 Cependant cette méthode n'est pas du tout la même chose quand on parle des types complexes comme les **string** (chaines de caractères).
 
