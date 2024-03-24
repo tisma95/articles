@@ -30,7 +30,7 @@ Dans l'exemple précédent on voit que les variable *a* et *b* ont un numéro de
 
 **La fonction id ne renvoie pas tout le temps le même numéro de case mémoire. La valeur obtenue varie d'un ordinateur à l'autre.**
 
-Quand on ecrit un programme en Python pour les type primitifs comme **int**(entier), **float**(nombre à virgule), **bool**(booléen) et les types **str**(chaine) lorsque deux variables ont la même valeur, les deux variables partage la même case mêmoire tant que la valeur est identique. Comme dans les exemples ci dessous:
+Quand on écrit un programme en Python pour les type primitifs comme **int**(entier), **float**(nombre à virgule), **bool**(booléen) et les types **str**(chaine) lorsque deux variables ont la même valeur, les deux variables partage la même case mémoire tant que la valeur est identique. Comme dans les exemples ci dessous:
 
 <img src="./img/example_int_fr.png" alt="" width="100%" />
 
@@ -40,19 +40,19 @@ Le même résultat est obtenu avec les **strings** type **str**.
 
 **Ce mécanisme de partage de la même case mémoire n'augmente pas la mémoire occupée par une variable. 100 variables ayant la même valeur et 50 variables ayant la même valeur sont liée à une seule case mémoire.**
 
-Cependant celà n'est plus pareil pour les types **Objets** comme les **list**(liste), **tuple** et les **dict**(dictionnaires). Toute déclaration d'une variable de type objet sera stockée dans une nouvelle case mémoire peut importe qu'une autre variable existe ou non.
+Cependant cela n'est plus pareil pour les types **Objets** comme les **list**(liste), **tuple** et les **dict**(dictionnaires). Toute déclaration d'une variable de type objet sera stockée dans une nouvelle case mémoire peut importe qu'une autre variable existe ou non.
 
 <img src="./img/example_obj_fr.png" alt="" width="100%" />
 
 **Contrairement aux types primitifs ici on a une augmentation de la mémoire occupée. 100 variables de type objet occuperont 100 cases mémoires différentes.**
 
-Quand on utilise l'opération **=** pour assigner une variable à une autre c'est  la copie de la case mémoire qui est faite. **a=b** signifie assigne aux variables **a** et **b** la même case mémoire qui est celle de **b**. Vue que la case mémoire est pareille dans le cas des listes celà revient à manipuler la même liste.
+Quand on utilise l'opération **=** pour assigner une variable à une autre c'est  la copie de la case mémoire qui est faite. **a=b** signifie assigne aux variables **a** et **b** la même case mémoire qui est celle de **b**. Vue que la case mémoire est pareille dans le cas des listes cela revient à manipuler la même liste.
 
 <img src="./img/example_equal_fr.png" alt="" width="100%" />
 
 ## Subtilité avec input
 
-Quand l'utilisateur entre dans le jeu celà change.
+Quand l'utilisateur entre dans le jeu cela change.
 
 Précédemment pour les types primitifs, **id** renvoyait la même valeur parce les variables contenaient les mêmes valeurs. Quand on utilise la fonction **input** qui permet à l'utilisateur de saisir une valeur, la valeur saisie de l'utilisateur est stockée dans une nouvelle case mémoire.
 
