@@ -70,7 +70,7 @@ Quand il s'agit du type **str** la case mémoire où la valeur de l'utilisateur 
 
 ## Subtilité des comparaisons avec *is* et *is not*
 
-Dans les versions récentes de Python (par exemple dans la 3.10) on a eu l'introduction des mots clés **is not** et **is** qui sont utilisés par certains programmeurs (moi y compris je suis tombé dans le piège d'où l'objet de l'article) parfois à tort pour vérifier si une deux variables ont la même valeur.
+Il existe en Python les mots clés **is not** et **is** qui sont utilisés par certains programmeurs (moi y compris je suis tombé dans le piège d'où l'objet de l'article) parfois à tort pour vérifier si une deux variables ont la même valeur.
 
 Cependant cette méthode n'est pas du tout la même chose quand on parle des types complexes comme les **string** (chaines de caractères).
 

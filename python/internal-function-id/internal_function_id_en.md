@@ -70,7 +70,7 @@ When it comes to the **str** type, the memory location where the user's value is
 
 ## Comparisons rules with *is* and *is not*
 
-Recent versions of Python (e.g. 3.10) have introduced the keywords **is not** and **is**, which are used by some programmers (including me, who fell into the trap, hence the purpose of this article), sometimes incorrectly, to check whether two variables have the same value.
+In Python, the keywords **is not** and **is**, which are used by some programmers (including me, who fell into the trap, hence the purpose of this article), sometimes incorrectly, to check whether two variables have the same value.
 
 However, this method is not at all the same when it comes to complex types such as **string**.
 
