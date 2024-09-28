@@ -45,7 +45,7 @@ Si on veut afficher le résultat de la fonction dans les logs on aurait :
 
 Un programme informatique est une suite de fonctions et méthodes qui s’appellent entres elles. Supposons un programme constitué de 3 fonctions _fonction A_,_fonction B_ et _fonction C_ avec la pile suivante :
 
-<img src="./img/fr/2. architecture_multiple.png" alt="Architecture d''appel de plusieurs fonctions" width="50%" />
+<img src="./img/fr/2. architecture_multiple.png" alt="Architecture d'appel de plusieurs fonctions" width="50%" />
 
 Quand on a plusieurs fonctions les logs doivent se présenter comme suit :
 

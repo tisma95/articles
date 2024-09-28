@@ -61,7 +61,7 @@ If we want to apply the logs in this sequence of functions, we would have:
 
 Execution would give :
 
-<img src="./img/en/7. example.png" alt="Log d'une suite de fonctions exécution" width="50%" />
+<img src="./img/en/7. example.png" alt="Log d'une suite de fonctions execution" width="50%" />
 
 **In the previous examples, we used the print function to display logs. In your projects, you should use log modules from your own language. In Python, you can use [Logging](https://docs.python.org/3/library/logging.html).**
 
