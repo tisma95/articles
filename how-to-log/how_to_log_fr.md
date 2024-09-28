@@ -20,7 +20,7 @@ Le problème qui se pose maintenant est de savoir quoi afficher et où d’où l
 
 Par définition, une fonction reçoit en entrée aucun ou plusieurs paramètres, ensuite effectue des opérations et retourne un résultat.
 
-<img src="./img/fr/1. architecture.png" alt="Architecture d'une fonction" width="100%" />
+<img src="./img/fr/1. architecture.png" alt="Architecture d'une fonction" width="50%" />
 
 Dans une fonction simple les informations utiles à afficher dans les logs sont :
 
@@ -29,15 +29,15 @@ Dans une fonction simple les informations utiles à afficher dans les logs sont 
 
 Par exemple pour une fonction qui ne prend aucun paramètre et retourne le message ‘Hello’ on aurait en Python :
 
-<img src="./img/fr/3. func_no_parameter.png" alt="Log d'une fonction sans paramètre" width="100%" />
+<img src="./img/fr/3. func_no_parameter.png" alt="Log d'une fonction sans paramètre" width="50%" />
 
 Supposons que la fonction prenne en paramètre un nom et retourne « Hello nom d’utilisateur », on aurait :
 
-<img src="./img/fr/4. func_with_parameter.png" alt="Log d'une fonction avec paramètres" width="100%" />
+<img src="./img/fr/4. func_with_parameter.png" alt="Log d'une fonction avec paramètres" width="50%" />
 
 Si on veut afficher le résultat de la fonction dans les logs on aurait :
 
-<img src="./img/fr/5. func_with_parameter_and_response.png" alt="Log d'une fonction avec paramètres et résultat" width="100%" />
+<img src="./img/fr/5. func_with_parameter_and_response.png" alt="Log d'une fonction avec paramètres et résultat" width="50%" />
 
 **Quand les paramètres contiennent des informations confidentielles comme l’email et mot de passe, il ne faut pas afficher ces informations dans les logs il faut les remplacer par \*\*.**
 
@@ -45,7 +45,7 @@ Si on veut afficher le résultat de la fonction dans les logs on aurait :
 
 Un programme informatique est une suite de fonctions et méthodes qui s’appellent entres elles. Supposons un programme constitué de 3 fonctions _fonction A_,_fonction B_ et _fonction C_ avec la pile suivante :
 
-<img src="./img/fr/2. architecture_multiple.png" alt="Architecture d''appel de plusieurs fonctions" width="100%" />
+<img src="./img/fr/2. architecture_multiple.png" alt="Architecture d''appel de plusieurs fonctions" width="50%" />
 
 Quand on a plusieurs fonctions les logs doivent se présenter comme suit :
 
@@ -57,11 +57,11 @@ Soit une fonction main qui appelle une fonction obtenirNom et avec le nom saisi 
 
 Si on veut appliquer les logs dans cette suite de fonctions on aurait :
 
-<img src="./img/fr/6. func_multiple_call.png" alt="Log d'une suite de fonctions" width="100%" />
+<img src="./img/fr/6. func_multiple_call.png" alt="Log d'une suite de fonctions" width="50%" />
 
 L’exécution donnerait :
 
-<img src="./img/fr/7. example.png" alt="Log d'une suite de fonctions exécution" width="100%" />
+<img src="./img/fr/7. example.png" alt="Log d'une suite de fonctions exécution" width="50%" />
 
 **Dans les exemples précédents nous avons utilisé la fonction print pour afficher les logs. Dans vos projets il faut préférer des modules de logs de votre langage. En Python, vous pouvez utiliser [Logging](https://docs.python.org/3/library/logging.html).**
 
