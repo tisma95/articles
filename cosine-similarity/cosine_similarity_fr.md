@@ -147,3 +147,5 @@ En utilisant les lemmes **Beau** et **Belle** seront représentés par leur form
 De plus, cette méthode ne prend pas en compte le sens sémantique entre deux phrases c'est à dire deux phrases **Le chat mange la souris** et **La souris mange le chat** seront considérées comme similaires au plan syntaxique et grammatical mais sur le plan sémantique (du sens) elles sont totalement différentes.
 
 Pour aller plus loin sur le sujet, on peut utiliser les librairies de NLP (Natural Language Processing) comme [SpaCy](https://spacy.io/) et [NLTK](https://www.nltk.org/) qui contiennent des outils de traitement automatique des langues.
+
+Vous trouverez des exemples de codes ici: [Calcul de la similitude de différentes manières](https://github.com/tisma95/articles/tree/master/cosine-similarity/sentence-similarities-benchmark) qui montre diverses méthodes de calcul de manière natif avec Python, SpaCy, NLTK.
