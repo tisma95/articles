@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1746280255.062 "/Users/nonkouvaga/Repositories/articles/cosine-similarity/cosine-similarity.tex" "dist/cosine-similarity.pdf" "cosine-similarity" 1746280256.59134 0
-  "/Users/nonkouvaga/Repositories/articles/cosine-similarity/cosine-similarity.tex" 1746280254.47821 8941 1a34e69caa190dad4c76a97456c71332 ""
+["pdflatex"] 1746550641.42053 "/Users/nonkouvaga/Repositories/articles/cosine-similarity/cosine-similarity.tex" "dist/cosine-similarity.pdf" "cosine-similarity" 1746550642.78596 0
+  "/Users/nonkouvaga/Repositories/articles/cosine-similarity/cosine-similarity.tex" 1746550639.3718 8938 34556db3b2eaaad0317e994961c462d0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -92,9 +92,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1732445445.86518 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1732445245 8221444 f0975612c3ffe7752ec96ea4deb27d15 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "cosine-similarity.tex" 1746280254.47821 8941 1a34e69caa190dad4c76a97456c71332 ""
-  "dist/cosine-similarity.aux" 1746280256.40145 3193 fd3a0c0ead572d611b36e9aaa3f6b764 "pdflatex"
-  "dist/cosine-similarity.out" 1746280256.40368 987 94c377753b42ef4c6dc5c07b181b21b0 "pdflatex"
+  "cosine-similarity.tex" 1746550639.3718 8938 34556db3b2eaaad0317e994961c462d0 ""
+  "dist/cosine-similarity.aux" 1746550642.61195 3187 d410833632a67ca61472218d139d2141 "pdflatex"
+  "dist/cosine-similarity.out" 1746550642.61338 987 94c377753b42ef4c6dc5c07b181b21b0 "pdflatex"
   "img/vecteur_exemple_simple.png" 1744518915.30203 70053 369cae837f554c38ad945aeb807781b4 ""
   "img/vecteur_exemple_simple_example2.png" 1744518915.30349 56331 603521caa6201ea1ab1a5a82bc026125 ""
   "img/vecteur_non_similitude.png" 1746027961.90386 64776 5a602956b747c2066d8b1387f9bb6129 ""
