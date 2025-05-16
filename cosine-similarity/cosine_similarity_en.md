@@ -28,7 +28,7 @@ The representation in a reference frame gives:
 
 <img src="./img/vecteur_exemple_simple.png" alt="Simple representation similarity example 1">
 
-La phrase 1 est représentée par le vecteur $A_{1}(1, 1)$ et la phrase 2 par le vecteur $B_{2}(1, 0)$.
+Sentence 1 is represented by the vector $A_{1}(1, 1)$ and sentence 2 by the vector $B_{2}(1, 0)$.
 
 The angle formed by these two vectors is the $\alpha$ angle, whose cosine is used to calculate the similarity between the two sentences.
 
